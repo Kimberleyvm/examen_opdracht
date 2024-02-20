@@ -122,6 +122,11 @@ body{
     height: 70%;
     padding-left: 10%;
     
+}@media only screen and (max-width: 600px){
+    .kind img{
+        width: 50%;
+
+    }
 }
 /* over ons plaatje */
 .hannah img{
