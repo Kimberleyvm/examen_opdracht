@@ -1,4 +1,4 @@
-
+/* algemeen sheet, als het specifiek is voor een pagina staat dit vermeldt */
 body{
     margin:0%;
 }
@@ -84,12 +84,18 @@ body{
     font-size: 12pt;
     padding-bottom: 10%;
 }
-
+/* index pagina plaatje */
 .sax1 img{
     width: 90%;
     height: 70%;
     padding-left: 4%;
     
+}
+/* index pagina plaatje */
+.trompet img{
+    width: 30%;
+    height: 15%;
+    padding-left: 1%;
 }
 .rechterkant{
     padding-left: 2%;
@@ -99,11 +105,7 @@ body{
     color: rgb(185, 79, 18);
     font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
-.trompet img{
-    width: 30%;
-    height: 15%;
-    padding-left: 1%;
-}
+
 .rechtertext{
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     padding-top: 2%;
@@ -113,6 +115,31 @@ body{
         padding-bottom: 10%;
         padding-top: 2%;
     }
+}
+/* over ons plaatje */
+.kind img{
+    width: 80%;
+    height: 70%;
+    padding-left: 10%;
+    
+}
+/* over ons plaatje */
+.hannah img{
+    float: right;
+    width: 30%;
+}
+/* over ons plaatje */
+.jesse img{
+    float: left;
+    width: 30%;
+    padding-bottom: 4%;
+}
+/* over ons tekst */
+.rechterkant-over{
+    padding-left: 2%;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    display: inline-block;
+}@media only screen and (max-width: 600px){
 }
 
 .footer{
